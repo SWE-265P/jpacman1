@@ -23,7 +23,7 @@ public class LevelFactory {
     private static final int CLYDE = 3;
 
     
-    private static final int PELLET_VALUE = 10;
+    private static final int COUNT = 10;
 
     
     private final PacManSprites sprites;
@@ -71,7 +71,7 @@ public class LevelFactory {
 
     
     public Pellet createPellet() {
-        return new Pellet(PELLET_VALUE, sprites.getPelletSprite());
+        return new Pellet(COUNT, sprites.getPelletSprite());
     }
 
     
